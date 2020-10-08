@@ -15,7 +15,7 @@
           },
           {
             "type": "deploy",
-            "value": "Definitions/Docker/AntiSpam:{{DOCKER.DOCKER_HOME}}/Rspamd"
+            "value": "main/docker/anti_spam:1.0.0@:{{DOCKER.DOCKER_HOME}}/Rspamd"
           },
           {
             "type": "stack",

@@ -15,7 +15,7 @@
           },
           {
             "type": "deploy",
-            "value": "Definitions/Docker/Redis:{{DOCKER.DOCKER_HOME}}/Redis"
+            "value": "main/docker/redis:1.0.0@:{{DOCKER.DOCKER_HOME}}/Redis"
           },
           {
             "type": "stack",

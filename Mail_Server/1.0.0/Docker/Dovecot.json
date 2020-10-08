@@ -23,7 +23,7 @@
           },
           {
             "type": "deploy",
-            "value": "Definitions/Docker/Dovecot:{{DOCKER.DOCKER_HOME}}/Dovecot"
+            "value": "main/docker/dovecot:1.0.0@:{{DOCKER.DOCKER_HOME}}/Dovecot"
           },
           {
             "type": "tlsCertificate",
