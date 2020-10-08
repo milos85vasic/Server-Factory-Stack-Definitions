@@ -15,7 +15,7 @@
           },
           {
             "type": "deploy",
-            "value": "Definitions/Docker/Postgres:{{DOCKER.DOCKER_HOME}}/Postgres"
+            "value": "main/docker/postgres:1.0.0@:{{DOCKER.DOCKER_HOME}}/Postgres"
           },
           {
             "type": "stack",
