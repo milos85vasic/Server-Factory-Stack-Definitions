@@ -1,7 +1,7 @@
 {
   "definition": {
     "group": "main",
-    "type": "stack",
+    "type": "stacks",
     "version": "1.0.0",
     "name": "mail_server"
   },
