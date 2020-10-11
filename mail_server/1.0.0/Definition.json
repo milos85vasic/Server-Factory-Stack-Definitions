@@ -93,11 +93,5 @@
         "SUBNET": "172.18.0.0/16"
       }
     }
-  },
-  "includes": [
-    "Docker/AntiVirus.json",
-    "Docker/AntiSpam.json",
-    "Docker/Dovecot.json",
-    "Docker/Postfix.json"
-  ]
+  }
 }
