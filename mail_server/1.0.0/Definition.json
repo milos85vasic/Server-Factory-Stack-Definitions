@@ -10,6 +10,7 @@
     "main/software/postgres:1.0.0",
     "main/software/redis:1.0.0",
     "main/software/certification_authority:1.0.0",
+    "main/docker/network:1.0.0",
     "main/docker/postgres:1.0.0",
     "main/docker/redis:1.0.0",
     "main/docker/anti_virus:1.0.0",
@@ -94,7 +95,6 @@
     }
   },
   "includes": [
-    "Docker/Network.json",
     "Docker/Databases/Relational.json",
     "Docker/Databases/In_Memory.json",
     "Docker/AntiVirus.json",
