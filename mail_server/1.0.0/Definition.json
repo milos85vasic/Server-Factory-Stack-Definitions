@@ -95,8 +95,6 @@
     }
   },
   "includes": [
-    "Docker/Databases/Relational.json",
-    "Docker/Databases/In_Memory.json",
     "Docker/AntiVirus.json",
     "Docker/AntiSpam.json",
     "Docker/Dovecot.json",
