@@ -13,10 +13,10 @@
     "main/docker/network:1.0.0",
     "main/docker/postgres:1.0.0",
     "main/docker/redis:1.0.0",
-    "main/docker/anti_virus:1.0.0",
-    "main/docker/anti_spam:1.0.0",
-    "main/docker/postfix:1.0.0",
-    "main/docker/dovecot:1.0.0"
+    "main.mail_server/docker/anti_virus:1.0.0",
+    "main.mail_server/docker/anti_spam:1.0.0",
+    "main.mail_server/docker/postfix:1.0.0",
+    "main.mail_server/docker/dovecot:1.0.0"
   ],
   "variables": {
     "SERVER": {
