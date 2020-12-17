@@ -8,5 +8,13 @@
   "uses": [
     "main/software/docker:1.0.0",
     "main/docker/network:1.0.0"
-  ]
+  ],
+  "variables": {
+    "SERVICE": {
+      "NETWORK": {
+        "NAME": "caching_network",
+        "SUBNET": "172.18.0.0/16"
+      }
+    }
+  }
 }
