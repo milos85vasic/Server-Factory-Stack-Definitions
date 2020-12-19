@@ -12,7 +12,7 @@
   "variables": {
     "SERVICE": {
       "NETWORK": {
-        "NAME": "caching_network",
+        "NAME": "server_factory_network",
         "SUBNET": "172.18.0.0/16"
       }
     }
