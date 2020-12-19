@@ -7,7 +7,8 @@
   },
   "uses": [
     "main/software/docker:1.0.0",
-    "main/docker/network:1.0.0"
+    "main/docker/network:1.0.0",
+    "main.proxy.caching/docker/lighttpd:1.0.0"
   ],
   "variables": {
     "SERVICE": {
