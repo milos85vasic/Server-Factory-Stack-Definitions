@@ -12,6 +12,12 @@
   ],
   "variables": {
     "SERVICE": {
+      "LIGHTTPD": {
+        "NAME": "caching_proxy_lighttpd",
+        "PORTS": {
+          "CACHING_PORT": 8080
+        }
+      },
       "NETWORK": {
         "NAME": "server_factory_network",
         "SUBNET": "172.18.0.0/16"
