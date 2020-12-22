@@ -15,7 +15,8 @@
       "LIGHTTPD": {
         "NAME": "caching_proxy_lighttpd",
         "PORTS": {
-          "CACHING_PORT": 3128
+          "CACHING_PORT": 3128,
+          "CERT_PORT": 3228
         }
       },
       "NETWORK": {
