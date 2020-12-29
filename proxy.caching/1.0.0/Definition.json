@@ -15,8 +15,7 @@
       "SQUID": {
         "NAME": "caching_proxy_squid",
         "PORTS": {
-          "CACHING_PORT": 3128,
-          "CERT_PORT": 3129
+          "CACHING_PORT": 3128
         }
       },
       "NETWORK": {
