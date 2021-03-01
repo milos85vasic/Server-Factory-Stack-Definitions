@@ -21,7 +21,7 @@
   "variables": {
     "SERVER": {
       "CERTIFICATION": {
-        "HOME": "{{SERVER.SERVER_HOME}}/Server/Ca",
+        "HOME": "{{SERVER.HOME}}/Server/Ca",
         "COUNTRY": "{{SERVER.INFO.COUNTRY}}",
         "PROVINCE": "{{SERVER.INFO.PROVINCE}}",
         "CITY": "{{SERVER.INFO.CITY}}",
